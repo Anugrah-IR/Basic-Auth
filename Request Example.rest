@@ -1,0 +1,31 @@
+// register 
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "email" : "email@domain.com",
+    "password" : "password"
+}
+
+###
+
+// login
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "email@domain.com",
+    "password": "password"
+}
+
+###
+
+// update password
+POST http://localhost:3000/updatePassword
+Content-Type: application/json
+
+{
+    "email": "email@domain.com",
+    "oldPassword": "password",
+    "newPassword": "newPassword"
+}
