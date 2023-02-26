@@ -1,5 +1,5 @@
-// register 
-POST http://localhost:3000/register
+// Register 
+POST http://localhost:3000/api/auth/register
 Content-Type: application/json
 
 {
@@ -9,8 +9,8 @@ Content-Type: application/json
 
 ###
 
-// login
-POST http://localhost:3000/login
+// Login
+POST http://localhost:3000/api/auth/login
 Content-Type: application/json
 
 {
@@ -20,8 +20,8 @@ Content-Type: application/json
 
 ###
 
-// update password
-POST http://localhost:3000/updatePassword
+// Reset password
+POST http://localhost:3000/api/auth/reset-password
 Content-Type: application/json
 
 {
